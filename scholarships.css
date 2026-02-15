@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  color: #222;
+}
+
+/* HERO */
+.scholar-hero {
+  position: relative;
+  height: 60vh;
+  background: url("scholarships.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scholar-hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.65);
+}
+
+.hero-text {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* SCHOLARSHIPS GRID */
+.scholarships {
+  padding: 80px 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+/* CARD */
+.scholar-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.scholar-card:hover {
+  transform: translateY(-10px);
+}
+
+.scholar-card h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.scholar-card p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.scholar-card a {
+  text-decoration: none;
+  color: #0a58ca;
+  font-weight: 600;
+}
+
+/* SPORT TAGS */
+.sport-tag {
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.rugby { background: #1b4332; }
+.football { background: #003566; }
+.basketball { background: #f77f00; }
+.soccer { background: #2a9d8f; }
+.baseball { background: #6a040f; }
+.athletics { background: #7209b7; }
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
