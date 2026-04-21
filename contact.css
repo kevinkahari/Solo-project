@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #f4f6f9;
+  
   color: #222;
 }
 
@@ -140,3 +140,10 @@ footer {
   padding: 20px;
   font-size: 0.9rem;
 }
+body{
+  background-image: url("illustration-person-playing-rugby.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+  

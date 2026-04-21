@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #f4f6f9;
+  
   color: #222;
 }
 
@@ -124,4 +124,82 @@ body {
 
 .cta-btn:hover {
   background: #ffd166;
+}
+body{
+  background-image: url("portrait-afro-athlete-woman-running-doing-exercise-outdoors.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+    
+/* ===== Counter Section ===== */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.counter-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.counter {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* ===== Scroll Reveal ===== */
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.7s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===== Testimonial Slider ===== */
+.testimonial {
+    display: none;
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+}
+
+.testimonial.show {
+    display: block;
+    animation: fadeIn 0.7s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* ===== CTA Button ===== */
+.cta-btn {
+    padding: 14px 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+/* ===== Mission Cards Hover ===== */
+.mission-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }

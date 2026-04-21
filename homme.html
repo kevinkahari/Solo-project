@@ -3,83 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Athlete Pathway</title>
-</head>
-<body>
-    <header>
-        <div class="container nav">
-            <h1 class="logo">AthletePathway</h1>
-            <nav>
-                <a href="homme.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="scholarships.html">scholarships</a>
-                <a href="process.html">How It Works</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-    </header>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Athlete Pathway | Home</title>
-  <link rel="stylesheet" href="home..css">
+    <title>Athlete Pathway | Home</title>
+    <link rel="stylesheet" href="home..css">
 </head>
 <body>
 
+<header>
+    <div class="container nav">
+        <h1 class="logo">AthletePathway</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="scholarships.html">Scholarships</a>
+            <a href="process.html">How It Works</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
 <!-- HERO SECTION -->
 <section class="hero">
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <h1>Where Talent Meets Opportunity</h1>
-    <p>Connecting athletes to university sponsorships and scholarships worldwide</p>
-    <div class="hero-buttons">
-      <a href="#" class="btn primary">Get Sponsored</a>
-      <a href="#" class="btn secondary">Learn More</a>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>Where Talent Meets Opportunity</h1>
+        <p>
+            Connecting athletes to university sponsorships and scholarships worldwide
+        </p>
+        <div class="hero-buttons">
+            <a href="#" class="btn primary">Get Sponsored</a>
+            <a href="about.html" class="btn secondary">Learn More</a>
+        </div>
     </div>
-  </div>
 </section>
 
 <!-- ABOUT PREVIEW -->
 <section class="about-preview">
-  <h2>Built for Athletes with Ambition</h2>
-  <p>
-    We help talented athletes showcase their skills, get noticed by universities,
-    and secure sponsorships that support both sport and education.
-  </p>
+    <h2>Built for Athletes with Ambition</h2>
+    <p>
+        We help talented athletes showcase their skills, get noticed by universities,
+        and secure sponsorships that support both sport and education.
+    </p>
 </section>
 
 <!-- FEATURES -->
 <section class="features">
-  <div class="feature-card">
-    <h3>🏆 Athlete Exposure</h3>
-    <p>Get seen by university recruiters actively searching for talent.</p>
-  </div>
+    <div class="feature-card">
+        <h3>🏆 Athlete Exposure</h3>
+        <p>Get seen by university recruiters actively searching for talent.</p>
+    </div>
 
-  <div class="feature-card">
-    <h3>🎓 Sponsorships</h3>
-    <p>Access financial and academic support through sports scholarships.</p>
-  </div>
+    <div class="feature-card">
+        <h3>🎓 Sponsorships</h3>
+        <p>Access financial and academic support through sports scholarships.</p>
+    </div>
 
-  <div class="feature-card">
-    <h3>🌍 Global Universities</h3>
-    <p>Opportunities across multiple countries and competitive leagues.</p>
-  </div>
+    <div class="feature-card">
+        <h3>🌍 Global Universities</h3>
+        <p>Opportunities across multiple countries and competitive leagues.</p>
+    </div>
 </section>
 
 <!-- CTA -->
 <section class="home-cta">
-  <h2>Your Journey Starts Today</h2>
-  <p>Turn your performance into a future.</p>
-  <a href="#" class="btn primary">Join Now</a>
+    <h2>Your Journey Starts Today</h2>
+    <p>Turn your performance into a future.</p>
+    <a href="#" class="btn primary">Join Now</a>
+</section>
+
+<!-- COUNTDOWN -->
+<section class="countdown-section">
+    <h2>Application Deadline</h2>
+    <p id="countdown"></p>
+</section>
+
+<!-- ELIGIBILITY -->
+<section id="eligibility" class="eligibility">
+    <h2>Check Eligibility</h2>
+
+    <input type="number" id="age" placeholder="Your Age">
+    <input type="number" id="score" placeholder="Academic Score">
+
+    <button id="check-eligibility">Check Eligibility</button>
+
+    <p id="eligibility-result"></p>
+</section>
+
+<!-- APPLICATION -->
+<section id="apply" class="application">
+    <h2>Scholarship Application</h2>
+
+    <form id="application-form">
+        <input type="text" id="name" placeholder="Full Name">
+        <input type="text" id="sport" placeholder="Sport">
+        <input type="number" id="grade" placeholder="Average Grade">
+
+        <button type="submit">Submit Application</button>
+    </form>
+
+    <p id="form-message"></p>
 </section>
 
 <footer>
-  <p>© 2026 Athlete Pathway. All rights reserved.</p>
+    <p>© 2026 Athlete Pathway. All rights reserved.</p>
 </footer>
 
-</body>
-</html>
-
+<script src="home.js"></script>
 </body>
 </html>

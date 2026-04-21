@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #f4f6f9;
+ 
   color: #222;
 }
 
@@ -100,7 +100,7 @@ body {
 .baseball { background: #6a040f; }
 .athletics { background: #7209b7; }
 
-/* FOOTER */
+
 footer {
   background: #111;
   color: #aaa;
@@ -108,3 +108,12 @@ footer {
   padding: 20px;
   font-size: 0.9rem;
 }
+
+body{
+  background-image: url("handsome-smiling-african-athlete-man-running-track.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+z
+    
